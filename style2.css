@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.keys {
+	height: 400px;
+	width: 400px;
+	background-color: hsl(109, 83%, 87%);
+	border-radius: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.key {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+}
+
+.key:nth-child(1){
+	background-color: #d784e0;
+}
+
+.key:nth-child(2){
+	background-color: #ff9000;
+}
+
+.key:nth-child(3){
+	background-color: #00fff2;
+}
+
+kbd {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 0.5em;
+	font-size: 3em;
+}
